@@ -5,10 +5,10 @@ All images of dice including favicon were created using GIMP.
 
 ## Usage Instruction
 
-* First of all you have to guess a number from 1 to 6.
-* You can type the guess number inside the entry box.
-* After that you can press roll button and see the result below the answer label.
-* If you want to try agin, please use retry button.
+* First guess a number from 1 to 6.
+* Type the guess number inside the entry box.
+* After that press roll button and see the result below the answer label.
+* For try agin, please use retry button.
 
 
 
