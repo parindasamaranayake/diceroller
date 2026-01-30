@@ -1,10 +1,10 @@
 import random
 from tkinter import *
 
-#Array
+# Array
 numbers = [1, 2, 3, 4, 5, 6]
 
-#Functions
+# Functions
 def answer():
     return random.choice(numbers)
 
@@ -56,14 +56,14 @@ def retry():
     output_text.config(text="")
     output_image.config(image="")
 
-#Main window
+# Main window
 window = Tk()
 window.title("Dice Roller")
 window.geometry("300x300")
 favicon = PhotoImage(file="Images/dice_favicon.png")
 window.iconphoto(True, favicon)
 window.resizable(False, False)
-#Dice's images
+# Dice's images
 d1 = PhotoImage(file="Images/d1.png")
 d2 = PhotoImage(file="Images/d2.png")
 d3 = PhotoImage(file="Images/d3.png")
@@ -71,35 +71,35 @@ d4 = PhotoImage(file="Images/d4.png")
 d5 = PhotoImage(file="Images/d5.png")
 d6 = PhotoImage(file="Images/d6.png")
 
-#Caption
+# Caption
 caption = Label(window, text="Dice Roller", font=("arial", 30, "bold"))
 caption.pack()
 
-#"Enter your guess here" label
+# "Enter your guess here" label
 label = Label(window, text="Enter your guess here", font=("arial", 12))
 label.pack()
 
-#Input entry box
+# Input entry box
 input_field = Entry(window, font=("arial", 10), width=5)
 input_field.place(x=116, y=75)
 
-#Roll button
+# Roll button
 roll_button = Button(window, text="Roll", command=roll, width=5, height=2)
 roll_button.place(x=90, y=100)
 
-#Retry button
+# Retry button
 retry_button = Button(window, text="Retry", command=retry, width=5, height=2)
 retry_button.place(x=140, y=100)
 
-#Answer label
+# Answer label
 answer_label = Label(window, text="Answer", font=("arial", 12))
 answer_label.place(x=110, y=160)
 
-#Output text
+# Output text
 output_text = Label(window)
 output_text.place(x=110, y=180)
 
-#Output image
+# Output image
 output_image = Label(window)
 output_image.place(x=105, y=215)
 
