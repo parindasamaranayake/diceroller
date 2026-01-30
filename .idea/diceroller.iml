@@ -4,7 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
+<<<<<<< HEAD:.idea/diceroller.iml
     <orderEntry type="jdk" jdkName="Python 3.13 (diceroller) (2)" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.13 (diceroller)" jdkType="Python SDK" />
+>>>>>>> darkmode:.idea/P1.iml
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
