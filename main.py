@@ -111,15 +111,15 @@ input_field.place(x=116, y=75)
 
 # Roll button
 roll_button = Button(window, text="Roll", command=roll, width=5, height=2)
-roll_button.place(x=60, y=100)
+roll_button.place(x=60, y=105)
 
 # Retry button
 retry_button = Button(window, text="Retry", command=retry, width=5, height=2)
-retry_button.place(x=110, y=100)
+retry_button.place(x=110, y=105)
 
 # Dark mode button
 dark_mode_button = Button(window, text="Dark Mode", command=dark_mode, width=9, height=2)
-dark_mode_button.place(x=160, y=100)
+dark_mode_button.place(x=160, y=105)
 
 # Answer label
 answer_label = Label(window, text="Answer", font=("arial", 12), background="white")
