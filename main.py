@@ -1,5 +1,6 @@
 import random
 from tkinter import *
+from tkinter import messagebox
 
 # Variables
 global is_on
@@ -48,9 +49,9 @@ def roll():
                     case 6:
                         output_image.config(image=d6)
         else:
-            output_text.config(text="Please enter\na number\nfrom 1 to 6.")
+            messagebox.showerror(title="Error", message="Please enter a number from 1 to 6.")
     except ValueError:
-        output_text.config(text="Please enter\na number.")
+        messagebox.showerror(title="Error", message="Please enter a number.")
 
 def retry():
     window.update()
